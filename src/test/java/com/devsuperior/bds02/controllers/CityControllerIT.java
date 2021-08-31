@@ -57,4 +57,5 @@ public class CityControllerIT {
 		result.andExpect(jsonPath("$[1].name").value("Belém"));
 		result.andExpect(jsonPath("$[2].name").value("Brasília"));
 	}
+	
 }
